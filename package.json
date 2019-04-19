@@ -9,6 +9,16 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^3.13.3"
+    "@babel/core": "^7.4.3",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "babel-jest": "^24.7.1",
+    "babel-preset-shopify": "^18.0.0",
+    "jest": "^24.7.1",
+    "jest-watch-typeahead": "^0.3.0",
+    "lerna": "^3.13.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.4"
   }
 }
