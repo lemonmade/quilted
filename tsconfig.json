@@ -1,36 +1,7 @@
 {
-  "compilerOptions": {
-    // Output and resolution
-    "moduleResolution": "node",
-    "target": "esnext",
-    "esModuleInterop": true,
-    "jsx": "preserve",
-
-    // Strictest type checking in the West
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
-
-    // Declarations
-    "declaration": true,
-    "declarationMap": true,
-    "emitDeclarationOnly": true,
-
-    // Features
-    "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "es2015",
-      "es2016",
-      "es2017",
-      "es2018",
-      "esnext.asynciterable"
-    ]
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/__build__/**/*"]
+  "files": [],
+  "include": [],
+  "references": [
+    {"path": "./packages/react-testing"}
+  ]
 }
