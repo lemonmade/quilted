@@ -1,0 +1,11 @@
+{
+  "name": "@quilted/root",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Shopify <developers@shopify.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+ ]
+}
