@@ -3,6 +3,5 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "__build__"
-  },
-  "exclude": ["matchers.d.ts"]
+  }
 }

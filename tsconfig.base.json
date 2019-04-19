@@ -31,6 +31,7 @@
       "esnext.asynciterable"
     ]
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/__build__/**/*"]
+  "exclude": [
+    "**/__build__/**/*"
+  ]
 }

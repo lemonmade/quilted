@@ -49,8 +49,8 @@ describe('Root', () => {
     // of the module system instead, which isn't really any better.
     jest
       .spyOn(root, 'withRoot' as any)
-      .mockImplementation((withRoot: (element: Element<any>) => any) =>
-        withRoot(element),
+      .mockImplementation((withRoot) =>
+        (withRoot as (element: Element<any>) => any)(element),
       );
 
     expect(root.props).toBe(element.props);

@@ -3,5 +3,8 @@
 /coverage
 
 **/node_modules
-**/build
+**/__build__
 **/~
+
+/packages/*/*.js
+/packages/*/*.d.ts
