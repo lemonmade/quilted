@@ -27,8 +27,8 @@ export function toHaveReactProps<Props>(
     };
   }
 
-  const pass = Object.keys(props).every(key =>
-    this.equals(props[key], node.props[key]),
+  const pass = Object.keys(props).every((key) =>
+    this.equals((props as Record<string, unknown>)[key], (node.props as Record<string, unknown>)[key]),
   );
 
   const message = pass

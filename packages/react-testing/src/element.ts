@@ -83,7 +83,7 @@ export class Element<Props> {
   }
 
   data(key: string): unknown {
-    return this.props[key.startsWith('data-') ? key : `data-${key}`];
+    return (this.props as {[key: string]: unknown})[key.startsWith('data-') ? key : `data-${key}`];
   }
 
   prop<K extends keyof Props>(key: K): Props[K] {
@@ -230,7 +230,7 @@ export class Element<Props> {
   }
 }
 
-function equalSubset(subset: object, full: object) {
+function equalSubset(subset: {[key: string]: unknown}, full: {[key: string]: unknown}) {
   return Object.keys(subset).every(
     key => key in full && full[key] === subset[key],
   );

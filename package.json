@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "build": "tsc --build"
   },
   "workspaces": [
     "packages/*"
