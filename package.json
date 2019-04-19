@@ -5,11 +5,15 @@
   "author": "Shopify <developers@shopify.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest --watch"
+  },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/react": "^16.8.14",
     "@types/react-dom": "^16.8.4",
     "babel-jest": "^24.7.1",
