@@ -1,10 +1,12 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     // Output and resolution
     "moduleResolution": "node",
     "target": "esnext",
     "esModuleInterop": true,
     "jsx": "preserve",
+    "composite": true,
 
     // Strictest type checking in the West
     "strict": true,

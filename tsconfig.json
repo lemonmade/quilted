@@ -2,6 +2,7 @@
   "files": [],
   "include": [],
   "references": [
-    {"path": "./packages/react-testing"}
+    {"path": "./packages/react-testing"},
+    {"path": "./packages/useful-types"}
   ]
 }

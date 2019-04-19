@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "A library for testing React components according to our conventions.",
   "sideEffects": false,
+  "typings": "__build__/index.d.ts",
   "publishConfig": {
     "access": "public",
     "@shopify:registry": "https://registry.npmjs.org"

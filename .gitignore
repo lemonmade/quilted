@@ -8,3 +8,5 @@
 
 /packages/*/*.js
 /packages/*/*.d.ts
+
+tsconfig.tsbuildinfo

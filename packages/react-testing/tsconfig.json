@@ -3,5 +3,8 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "__build__"
-  }
+  },
+  "references": [
+    {"path": "../useful-types"}
+  ]
 }
