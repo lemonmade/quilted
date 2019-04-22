@@ -16,3 +16,5 @@ https://jestjs.io/docs/en/configuration#projects-array-string-projectconfig
 - Can only import from intended entry points
 - Tree shaking must work in Webpack
 - No commands ever run from the context of a package (other than installing dependencies)
+- Share tooling dependencies (TypeScript, linting/ formatting, Jest)
+- Minimal "getting started" process
