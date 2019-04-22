@@ -8,3 +8,11 @@ https://medium.com/grand-parade/monorepo-setup-with-lerna-typescript-babel-7-and
 
 https://github.com/facebook/jest/blob/master/jest.config.js
 https://jestjs.io/docs/en/configuration#projects-array-string-projectconfig
+
+## Goals
+
+- Unit tests run against source
+- e2e tests run against compiled source
+- Can only import from intended entry points
+- Tree shaking must work in Webpack
+- No commands ever run from the context of a package (other than installing dependencies)
