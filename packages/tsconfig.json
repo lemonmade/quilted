@@ -1,0 +1,6 @@
+{
+  "extend": "../tsconfig.base.json",
+  "include": [
+    "./**/quilted.config.ts"
+  ]
+}

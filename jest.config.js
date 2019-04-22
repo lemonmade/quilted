@@ -7,7 +7,6 @@ module.exports = {
   coverageDirectory: './coverage/',
   setupFilesAfterEnv: ['<rootDir>/tests/setup.ts'],
   moduleNameMapper: {
-    '^@shopify/useful-types': '<rootDir>/node_modules/@shopify/useful-types',
     '^@shopify/([a-zA-Z0-9_-]+)(/[a-zA-Z0-9_-]+)$': '<rootDir>/packages/$1/src/$2',
     '^@shopify/([a-zA-Z0-9_-]+)$': '<rootDir>/packages/$1',
   },
